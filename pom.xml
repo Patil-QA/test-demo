@@ -46,10 +46,7 @@
 
 				<configuration>
 					<suiteXmlFiles>
-						<!--suiteXmlFile>AnnotationSequence.xml</suiteXmlFile-->
-						<!--suiteXmlFile>LoginPageValidation.xml</suiteXmlFile-->
-						<!--suiteXmlFile>Sanity.xml</suiteXmlFile-->
-						<!--suiteXmlFile>FullRegressionSuite.xml</suiteXmlFile-->
+						<suiteXmlFile>RoughTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
