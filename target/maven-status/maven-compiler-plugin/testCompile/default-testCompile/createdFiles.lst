@@ -1,0 +1,8 @@
+com\qa\extentreports\Logging.class
+com\qa\testBase\TestBaseRough.class
+com\qa\testcases\FlipkartAppleTest.class
+com\qa\testcases\PriceCompareTest.class
+com\qa\testcases\RoughTest.class
+com\qa\extentreports\ListersReport.class
+com\qa\testBase\TestBase.class
+com\qa\extentreports\ExtentRep.class
