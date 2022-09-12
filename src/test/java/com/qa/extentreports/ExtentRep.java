@@ -12,10 +12,10 @@ public class ExtentRep {
 	 	
 	 	public static ExtentReports createReport() {
 		 extent=new ExtentReports();
-		ExtentSparkReporter sparkFail=new ExtentSparkReporter("RegressionPassed.html");
+		ExtentSparkReporter sparkFail=new ExtentSparkReporter("./test-output/RegressionPassed.html");
 		sparkFail.filter().statusFilter().as(new Status[] {Status.FAIL}).apply();//for adding fail tc only
 		
-		ExtentSparkReporter sparkAll=new ExtentSparkReporter("RegressionFailed.html");//for all tc details
+		ExtentSparkReporter sparkAll=new ExtentSparkReporter("./test-output/RegressionFailed.html");//for all tc details
 		
 		
 		extent.setSystemInfo("Application", "E-commerce Domain");
