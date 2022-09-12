@@ -1,5 +1,6 @@
 package com.qa.testcases;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.qa.Amazonpages.AmazonHomePage;
@@ -8,7 +9,7 @@ import com.qa.Amazonpages.AppleSearchResultPage;
 import com.qa.Flipkartpages.FlipCartHomePage;
 import com.qa.Flipkartpages.FlipkartMobilePage;
 import com.qa.testBase.TestBaseRough;
-
+@Listeners
 public class RoughTest extends TestBaseRough {
 
 	@Test
