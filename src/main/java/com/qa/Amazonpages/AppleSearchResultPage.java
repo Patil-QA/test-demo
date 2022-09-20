@@ -19,7 +19,7 @@ public class AppleSearchResultPage {
 	@FindBy(xpath="//span[text()='Apple iPhone 13 (128GB) - Green']")
 	private WebElement AppleiPhone13Title;
 	
-	@FindBy(xpath="//span[text()='₹69,900']")
+	@FindBy(xpath="//span[text()='Apple iPhone 13 (128GB) - Green']/ancestor::div[2]//span[@class='a-offscreen']")
 	private WebElement AppleiPhone13Price;
 	
 	

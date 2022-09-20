@@ -7,7 +7,7 @@ import com.qa.Amazonpages.AmazonHomePage;
 import com.qa.Amazonpages.AmazonMobilePage;
 import com.qa.Amazonpages.AppleSearchResultPage;
 import com.qa.Flipkartpages.FlipCartHomePage;
-import com.qa.Flipkartpages.FlipkartMobilePage;
+import com.qa.Flipkartpages.SearchPage;
 import com.qa.testBase.TestBaseRough;
 @Listeners
 public class RoughTest extends TestBaseRough {
@@ -25,7 +25,7 @@ public class RoughTest extends TestBaseRough {
 				+ Asrp.AmazonTitleWithURL(driver);
 		driver.get("https://www.flipkart.com/");
 		FlipCartHomePage fhp = new FlipCartHomePage(driver);
-		FlipkartMobilePage fmp = fhp.clickOnMobileMenu(driver);
+		SearchPage fmp = fhp.searchApple13(driver);
 		String flipKartApple = fmp.appleiPhone13Details() + "-" + fmp.appleiPhonePrice() + " "
 				+ fmp.applePageURL(driver);
 		System.out.println(flipKartApple+"\n"+Apple13OnAmazon);

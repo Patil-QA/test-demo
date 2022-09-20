@@ -3,10 +3,12 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="com.qa.extentreports.ListersReport"></listener>
+<listener class-name="com.qa.extentreports.AnnotationTransformer"></listener>
 </listeners>
   <test thread-count="5" name="SingleClass">
     <classes>
       <class name="com.qa.testcases.RoughTest"/>
+      <class name="com.qa.extentreports.TestLogic"/>
     </classes>
   </test> <!-- SingleClass -->
 </suite> <!-- Suite -->
