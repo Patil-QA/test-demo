@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcases.RoughTest">
+      <class name="com.qa.extentreports.TestLogic">
         <methods>
-          <include name="AmazonURl"/>
-          <include name="setUp"/>
+          <include name="m2"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- com.qa.testcases.RoughTest -->
+      </class> <!-- com.qa.extentreports.TestLogic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
